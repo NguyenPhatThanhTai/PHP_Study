@@ -21,6 +21,10 @@
             foreach ($Array as $Keys => $Values){
                 echo $Keys . ' ';
                 echo $Values . ' ';
+
+                echo '<pre>';
+                print_r($Array);
+                echo '</pre>';
             }
         }
     ?>
