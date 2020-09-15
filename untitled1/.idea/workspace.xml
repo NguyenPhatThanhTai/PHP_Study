@@ -33,6 +33,11 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\THANH TAI\PhpstormProjects\untitled1\product" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +60,13 @@
       <workItem from="1600054550618" duration="934000" />
       <workItem from="1600055650818" duration="1472000" />
       <workItem from="1600081727420" duration="5923000" />
+      <workItem from="1600087770991" duration="387000" />
+      <workItem from="1600090010268" duration="112000" />
+      <workItem from="1600140052205" duration="133000" />
+      <workItem from="1600140198009" duration="98000" />
+      <workItem from="1600145844444" duration="1340000" />
+      <workItem from="1600150337643" duration="5932000" />
+      <workItem from="1600157485366" duration="3913000" />
     </task>
     <servers />
   </component>
@@ -82,14 +94,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1599793489833" />
-    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1600081741630">
+    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1600157780083">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1600081741630" />
+    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1600157780083" />
     <state x="473" y="87" key="SettingsEditor" timestamp="1599793621982">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="473" y="87" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1599793621982" />
+    <state x="376" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600146522148">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="376" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1600146522148" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1599791950226">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
