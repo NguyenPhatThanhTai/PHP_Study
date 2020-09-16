@@ -18,11 +18,7 @@
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
-    <include_path>
-      <path value="$PROJECT_DIR$/../../../../xampp/php" />
-    </include_path>
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hLXhsIRJBotdY1J6eeJFH02SJn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/untitled1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -76,7 +72,10 @@
       <workItem from="1600231057469" duration="2555000" />
       <workItem from="1600235093835" duration="2507000" />
       <workItem from="1600242639051" duration="2214000" />
-      <workItem from="1600245039838" duration="33000" />
+      <workItem from="1600245074217" duration="594000" />
+      <workItem from="1600245953810" duration="2190000" />
+      <workItem from="1600248165313" duration="1905000" />
+      <workItem from="1600250141811" duration="25000" />
     </task>
     <servers />
   </component>
@@ -100,18 +99,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1600233008253" />
-    <state x="983" y="223" key="FileChooserDialogImpl" timestamp="1600245071229">
+    <state x="983" y="223" key="FileChooserDialogImpl" timestamp="1600235295495">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="983" y="223" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600245071229" />
+    <state x="983" y="223" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600235295495" />
     <state x="604" y="356" key="NewPhpFileDialog" timestamp="1600231098886">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1600231098886" />
-    <state x="443" y="82" key="SettingsEditor" timestamp="1600235301735">
+    <state x="443" y="82" key="SettingsEditor" timestamp="1600247258190">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="443" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1600235301735" />
+    <state x="443" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1600247258190" />
     <state x="376" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600146522148">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
