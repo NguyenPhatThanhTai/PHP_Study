@@ -18,7 +18,11 @@
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../xampp/php" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1hLXhsIRJBotdY1J6eeJFH02SJn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/php/windowsXamppPhp/php7apache2_4.dll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/untitled1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -67,6 +71,12 @@
       <workItem from="1600145844444" duration="1340000" />
       <workItem from="1600150337643" duration="5932000" />
       <workItem from="1600157485366" duration="3913000" />
+      <workItem from="1600162517205" duration="425000" />
+      <workItem from="1600163340930" duration="80000" />
+      <workItem from="1600231057469" duration="2555000" />
+      <workItem from="1600235093835" duration="2507000" />
+      <workItem from="1600242639051" duration="2214000" />
+      <workItem from="1600245039838" duration="33000" />
     </task>
     <servers />
   </component>
@@ -74,10 +84,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="87" key="#CLI_Interpreters" timestamp="1599793620932">
+    <state x="348" y="87" key="#CLI_Interpreters" timestamp="1600235290666">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="348" y="87" key="#CLI_Interpreters/0.0.1536.864@0.0.1536.864" timestamp="1599793620932" />
+    <state x="348" y="87" key="#CLI_Interpreters/0.0.1536.864@0.0.1536.864" timestamp="1600235290666" />
     <state x="475" y="75" key="#PHP" timestamp="1599792804744">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -86,29 +96,33 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="350" y="76" key="#SSH_Configurations/0.0.1536.864@0.0.1536.864" timestamp="1599791978437" />
-    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599793588520">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600233008253">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1599793588520" />
-    <state x="548" y="186" key="FileChooserDialogImpl" timestamp="1599793489833">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1600233008253" />
+    <state x="983" y="223" key="FileChooserDialogImpl" timestamp="1600245071229">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="548" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1599793489833" />
-    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1600157780083">
+    <state x="983" y="223" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600245071229" />
+    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1600231098886">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1600157780083" />
-    <state x="473" y="87" key="SettingsEditor" timestamp="1599793621982">
+    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1600231098886" />
+    <state x="443" y="82" key="SettingsEditor" timestamp="1600235301735">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="473" y="87" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1599793621982" />
+    <state x="443" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1600235301735" />
     <state x="376" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600146522148">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="376" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1600146522148" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1599791950226">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1600232984213">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1599791950226" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1600232984213" />
+    <state x="431" y="181" key="search.everywhere.popup" timestamp="1600162640428">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1600162640428" />
   </component>
 </project>
