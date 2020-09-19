@@ -19,6 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Web_My_Pictures" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -32,6 +33,12 @@
       <workItem from="1600498694142" duration="2000" />
       <workItem from="1600498741651" duration="3598000" />
       <workItem from="1600502462952" duration="2000" />
+      <workItem from="1600503975790" duration="1394000" />
+      <workItem from="1600513804415" duration="1617000" />
+      <workItem from="1600515447145" duration="132000" />
+      <workItem from="1600516209154" duration="2712000" />
+      <workItem from="1600518997648" duration="57000" />
+      <workItem from="1600519886250" duration="2148000" />
     </task>
     <servers />
   </component>
@@ -43,10 +50,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="475" y="75" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1600498770403" />
-    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1600500357459">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1600520958798">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1600500357459" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600520958798" />
+    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1600519936276">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1600519936276" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1600500169697">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

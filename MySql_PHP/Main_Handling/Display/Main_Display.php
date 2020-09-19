@@ -1,4 +1,3 @@
-<?php $url = 'http://localhost:63342/untitled1/Mysql_Connection/Main_Handling/Display/' ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,9 +7,9 @@
 <div class="TopBar">
     <p>Hello There, you are WELCOME</p>
     <div class="TopBarA">
-        <a href="<?php echo $url?>Main_Display.php">Home</a>
-        <a href="<?php echo $url?>Log-In.php" target="_blank">Log-in</a>
-        <a href="<?php echo $url?>Register.php" target="_blank">Register</a>
+        <a href="Main_Display.php">Home</a>
+        <a href="Log-In.php">Log-in</a>
+        <a href="Register.php">Register</a>
     </div>
 </div>
 <p>Type the button to log-in or register new --></p>

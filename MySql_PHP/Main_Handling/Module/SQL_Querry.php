@@ -19,7 +19,25 @@
     function Insert($User, $FullN, $Pass, $Email, $PhoneN){
         global $Conn;
         $Querry = "INSERT INTO infdata(UserName, FullName, Password, Email, PhoneNum) VALUES ('".$User."', '".$FullN."',
-                                '".$Pass."', '".$Email."', '".$PhoneN."')";
+                                    '".$Pass."', '".$Email."', '".$PhoneN."')";
+        mysqli_query($Conn, $Querry);
+        mysqli_close($Conn);
+    }
+
+    function GetByEmail($Email){
+        global $Conn;
+        $Querry = "SELECT * from infdata WHERE Email = '$Email'";
+        $Num = mysqli_query($Conn, $Querry);
+        if(mysqli_num_rows($Num) == 0){
+            return null;
+        }else{
+            return mysqli_fetch_array($Num);
+        }
+    }
+
+    function UpdatePass($Email, $Password){
+        global $Conn;
+        $Querry = "UPDATE infdata set Password = '$Password' WHERE Email = '$Email'";
         mysqli_query($Conn, $Querry);
         mysqli_close($Conn);
     }

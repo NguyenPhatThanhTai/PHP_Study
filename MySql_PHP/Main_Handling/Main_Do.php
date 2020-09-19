@@ -48,3 +48,58 @@ if ($_POST["submit"] == "Login") {
         echo 'Null type';
     }
 }
+
+if ($_POST["submit"] == "CheckMail"){
+    if (isset($_POST["Email"]) && $_POST["Email"] != ''){
+        $Email = $_POST["Email"];
+        $_SESSION['Email'] = $Email;
+        if (GetByEmail($Email) == null){
+            $_SESSION['Noti'] = "Account of email not exists";
+            header('location:Display/For-got-u-p.php');
+        }else{
+            $Rand = rand(100000, 999999);
+            $_SESSION['Rand'] = $Rand;
+            $to = "$Email";
+            $subject = "Verify Email";
+            $message = "$Rand";
+            $header = "From: $Email";
+            if (mail($to, $subject, $message, $header) == true){
+                $_SESSION['Noti'] = "Use 6 number in mail to verify";
+                header('location:Display/Check_Number.php');
+            }else{
+                $_SESSION['Noti'] = "Send mail fail, please try again";
+                header('location:Display/For-got-u-p.php');
+            }
+        }
+    }
+}
+
+if ($_POST["submit"] == "CheckNum"){
+    if (isset($_POST["Number"]) && $_POST["Number"] != ''){
+        $Number = $_POST["Number"];
+        if ($Number == $_SESSION['Rand']){
+            $_SESSION['Noti'] = "Change your password";
+            header('location:Display/reset-password.php');
+        }else{
+            $_SESSION['Noti'] = "Number not correct, please check again";
+            header('location:Display/Check_Number.php');
+        }
+    }
+}
+
+if ($_POST["submit"] == "ResetPass"){
+    if (isset($_POST["Password"]) && $_POST["Password"] != ''){
+        $Password = $_POST["Password"];
+        $Re_pass = $_POST["Re-Pass"];
+
+        if ($Password == $Re_pass){
+            UpdatePass($_SESSION['Email'], $Password);
+            $_SESSION['Noti'] = "Change password done, please log-in with new password";
+            header('location:Display/Log-In.php');
+        }else{
+            $_SESSION['Noti'] = "Password and re-pass not same";
+            header('location:Display/reset-password.php');
+        }
+    }
+}
+

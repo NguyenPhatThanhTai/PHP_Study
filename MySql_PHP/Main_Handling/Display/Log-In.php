@@ -13,6 +13,7 @@
         <input type="text" name = "UserName" placeholder="User Name here">
         <input type="password" name = "Password" placeholder="Password here">
         <input type="submit" value="Login" name="submit">
+        <a href="For-got-u-p.php">Forgot</a>
     </div>
 </form>
 <h3 style="color: black"><?php echo $_SESSION['Noti']?></h3>
