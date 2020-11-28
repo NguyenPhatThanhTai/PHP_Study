@@ -2,6 +2,14 @@
 include "Module/SQL_Querry.php";
 session_start();
 
+if($_POST["submit"] == "Login-Form"){
+    header('location:Display/Log-In.php');
+}
+
+if($_POST["submit"] == "Login-Form"){
+    header('location:Display/Register.php');
+}
+
 if ($_POST["submit"] == "register"){
     if (isset($_POST["UserName"]) && isset($_POST["FullName"]) && isset($_POST["Password"]) && isset($_POST["Re-Pass"]) && isset($_POST["Email"]) && isset($_POST["PhoneNum"])){
         $UserName = $_POST["UserName"];
@@ -11,17 +19,17 @@ if ($_POST["submit"] == "register"){
         $Email = $_POST["Email"];
         $PhoneNum = $_POST["PhoneNum"];
 
-        if($Password == $Re_pass){
-            $Result = GetByUser($UserName);
-            if($Result == null){
-                Insert($UserName, $FullName, $Password, $Email, $PhoneNum);
+        $Result = GetByUser($UserName);
+        if($Result == null){
+            if(Insert($UserName, $FullName, $Password, $Email, $PhoneNum)){
                 header('location:Display/Log-In.php');
-            }else{
-                $_SESSION['Noti'] = "Username is already exists";
+            }
+            else{
+                $_SESSION['Noti'] = "Something went wrong!!!";
                 header('location:Display/Register.php');
             }
         }else{
-            $_SESSION['Noti'] = "Password not same";
+            $_SESSION['Noti'] = "Username is already exists";
             header('location:Display/Register.php');
         }
     }
@@ -38,14 +46,12 @@ if ($_POST["submit"] == "Login") {
         }else{
             if ($Password == $Result['Password']){
                 header('location:Display/After_Login.php');
+                $_SESSION['Login'] = 'LoginDone';
             }else{
                 $_SESSION['Noti'] = "Login Fail, wrong password or username";
                 header('location:Display/Log-In.php');
             }
         }
-    }elseif ($_POST["UserName"] == '' || '' && $_POST["Password"] == ''){
-        header('location:Display/Log-In.php');
-        echo 'Null type';
     }
 }
 

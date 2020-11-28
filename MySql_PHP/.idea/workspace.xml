@@ -10,6 +10,15 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Sass File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hifB1txM2pLBvEize7z2oYTYK3" />
   <component name="ProjectViewState">
@@ -19,8 +28,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Web_My_Pictures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MySql_PHP\Style" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MySql_PHP\Style" />
+      <recent name="D:\MySql_PHP" />
+      <recent name="C:\xampp\MySql_PHP" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +60,19 @@
       <workItem from="1600516209154" duration="2712000" />
       <workItem from="1600518997648" duration="57000" />
       <workItem from="1600519886250" duration="2148000" />
+      <workItem from="1600934662542" duration="130000" />
+      <workItem from="1606387151934" duration="773000" />
+      <workItem from="1606390074719" duration="6000" />
+      <workItem from="1606390491569" duration="972000" />
+      <workItem from="1606392307952" duration="725000" />
+      <workItem from="1606393098328" duration="105000" />
+      <workItem from="1606393219118" duration="245000" />
+      <workItem from="1606445612277" duration="14000" />
+      <workItem from="1606445847870" duration="198000" />
+      <workItem from="1606446054754" duration="5066000" />
+      <workItem from="1606474577896" duration="8648000" />
+      <workItem from="1606486609678" duration="529000" />
+      <workItem from="1606561995845" duration="2772000" />
     </task>
     <servers />
   </component>
@@ -46,21 +80,45 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="475" y="75" key="#PHP" timestamp="1600498770403">
+    <state x="349" y="87" key="#CLI_Interpreters" timestamp="1606447322715">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="475" y="75" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1600498770403" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1600520958798">
+    <state x="349" y="87" key="#CLI_Interpreters/0.0.1536.864@0.0.1536.864" timestamp="1606447322715" />
+    <state x="475" y="75" key="#PHP" timestamp="1606446289943">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1600520958798" />
-    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1600519936276">
+    <state x="475" y="75" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1606446289943" />
+    <state x="352" y="77" key="#SSH_Configurations" timestamp="1606446241099">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1600519936276" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1600500169697">
+    <state x="352" y="77" key="#SSH_Configurations/0.0.1536.864@0.0.1536.864" timestamp="1606446241099" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606446593226">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1600500169697" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1606446593226" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606450778980">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606450778980" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1606449404546">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606449404546" />
+    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1606392196178">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1606392196178" />
+    <state x="277" y="77" key="SettingsEditor" timestamp="1606447323313">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606447323313" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1606446696339">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1606446696339" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606445911467">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606445911467" />
   </component>
 </project>

@@ -1,11 +1,17 @@
+<?php session_start();
+    if($_SESSION['Login'] == ''){
+        header('location:Log-In.php');
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../../Style/Styles.css">
+    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../Style/css/main.css">
+    <!--===============================================================================================-->
 </head>
 <body>
-
-<header>Welcome to my page</header>
-<p>Ban da dang nhap thanh cong</p>
+    <img class="S-picture" src="../../Picture/sayhi.gif">
 </body>
 </html>
